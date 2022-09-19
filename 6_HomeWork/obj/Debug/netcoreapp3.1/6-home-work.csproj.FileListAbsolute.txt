@@ -1,0 +1,14 @@
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\bin\Debug\netcoreapp3.1\6-home-work.exe
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\bin\Debug\netcoreapp3.1\6-home-work.deps.json
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\bin\Debug\netcoreapp3.1\6-home-work.runtimeconfig.json
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\bin\Debug\netcoreapp3.1\6-home-work.runtimeconfig.dev.json
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\bin\Debug\netcoreapp3.1\6-home-work.dll
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\bin\Debug\netcoreapp3.1\6-home-work.pdb
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.csproj.AssemblyReference.cache
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.AssemblyInfoInputs.cache
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.AssemblyInfo.cs
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.dll
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.pdb
+C:\Users\Кирилл\source\repos\6_HomeWork\6_HomeWork\obj\Debug\netcoreapp3.1\6-home-work.genruntimeconfig.cache
