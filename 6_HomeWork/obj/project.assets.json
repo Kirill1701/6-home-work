@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Кирилл\\source\\repos\\6_HomeWork\\6_HomeWork\\6_HomeWork.csproj",
-      "projectName": "6_HomeWork",
-      "projectPath": "C:\\Users\\Кирилл\\source\\repos\\6_HomeWork\\6_HomeWork\\6_HomeWork.csproj",
+      "projectUniqueName": "C:\\Users\\Кирилл\\source\\repos\\6_HomeWork\\6_HomeWork\\6-home-work.csproj",
+      "projectName": "6-home-work",
+      "projectPath": "C:\\Users\\Кирилл\\source\\repos\\6_HomeWork\\6_HomeWork\\6-home-work.csproj",
       "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Кирилл\\source\\repos\\6_HomeWork\\6_HomeWork\\obj\\",
       "projectStyle": "PackageReference",
