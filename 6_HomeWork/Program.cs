@@ -11,12 +11,12 @@ namespace _6_HomeWork
     {
         static void Main(string[] args)
         {
-            Console.Write("Вывести данные на экран - введите 1; \nЗаполнить данные - введите 2: ");
+            Console.Write("Вывести данные на экран - введите 1; \nЗаполнить данные - введите 2: "); // Начальное окно
             int action = int.Parse(Console.ReadLine());
 
-            if (action == 2)
+            void Note() // Метод для заполнения данных
             {
-                using (StreamWriter sw = new StreamWriter("staff.csv", true, Encoding.Unicode))
+                using (StreamWriter file = new StreamWriter("staff.csv", true, Encoding.Unicode)) // Создание файла
                 {
                     char key = 'д';
 
@@ -45,25 +45,36 @@ namespace _6_HomeWork
 
                         Console.Write("Введите место рождения сотрудника: ");
                         guide += $"{Console.ReadLine()}\t";
-                        sw.WriteLine(guide);
+                        file.WriteLine(guide);
                         Console.Write("Продолжить н/д"); key = Console.ReadKey(true).KeyChar;
                     }
                     while (char.ToLower(key) == 'д');
                 }
             }
-            else if (action == 1)
+            void Reading()
             {
-                using (StreamReader sr = new StreamReader("staff.csv", Encoding.Unicode))
+                StreamWriter file = new StreamWriter("staff.csv", true, Encoding.Unicode);
+                using (StreamReader openFile = new StreamReader("staff.csv", Encoding.Unicode)) // Чтение файла
                 {
                     string line;
                     Console.WriteLine();
 
-                    while ((line = sr.ReadLine()) != null)
+                    while ((line = openFile.ReadLine()) != null)
                     {
                         string[] staff = line.Split('\t');
                         Console.WriteLine($"{staff[0],8} {staff[1],15} {staff[2],30} {staff[3],5} {staff[4],5} {staff[5],15} {staff[6],25}");
                     }
                 }
+            }
+
+            // Использование методов создания и чтения файлов
+            if (action == 2)
+            {
+                Note();
+            }
+            else if (action == 1)
+            {
+                Reading();
             }
             else Console.WriteLine("Некорректные данные. Перезапустите программу.");
             
