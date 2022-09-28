@@ -51,23 +51,29 @@ namespace _6_HomeWork
                     while (char.ToLower(key) == 'д');
                 }
             }
-            void Reading()
+            void Reading() // Метод для чтения файла
             {
-                StreamWriter file = new StreamWriter("staff.csv", true, Encoding.Unicode);
-                using (StreamReader openFile = new StreamReader("staff.csv", Encoding.Unicode)) // Чтение файла
+                try // Чтение файла, если он создан
                 {
-                    string line;
-                    Console.WriteLine();
-
-                    while ((line = openFile.ReadLine()) != null)
+                    using (StreamReader openFile = new StreamReader("staff.csv", Encoding.Unicode)) // Чтение файла
                     {
-                        string[] staff = line.Split('\t');
-                        Console.WriteLine($"{staff[0],8} {staff[1],15} {staff[2],30} {staff[3],5} {staff[4],5} {staff[5],15} {staff[6],25}");
+                        string line;
+                        Console.WriteLine();
+
+                        while ((line = openFile.ReadLine()) != null)
+                        {
+                            string[] staff = line.Split('\t');
+                            Console.WriteLine($"{staff[0],8} {staff[1],15} {staff[2],30} {staff[3],5} {staff[4],5} {staff[5],15} {staff[6],25}");
+                        }
                     }
+                }
+                catch // Создание нового файла, при его отсутствии. Выполнение метода Note
+                {
+                    Note();
                 }
             }
 
-            // Использование методов создания и чтения файлов
+            // Использование методов создания и чтения файлов, при условии ввода с клавиатуры 
             if (action == 2)
             {
                 Note();
